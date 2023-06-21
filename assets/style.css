@@ -107,7 +107,7 @@ img {
     padding: 10px;
     margin: 20px;
     flex: 0 0 300px;
-    box-shadow: var(--light) 10px 10px;
+    box-shadow: var(--light) 10px 10px 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     color: white;
 }
@@ -119,6 +119,12 @@ img {
   ul{
     list-style-type: none;
   }
+
+  p{
+    padding-left: 15px;
+    line-height: 25px;
+  }
+  
   #About-Me{
     flex: 1 0 90%
   }
