@@ -5,25 +5,26 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, ;
   }
 
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 201px;
     padding: 20px;
   }
 
   header h1 {
-    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 60px;
     color: var(--dark);
+    font-weight: lighter;
     
 }
 
@@ -40,13 +41,13 @@ img {
   
   .avatar {
     overflow: hidden;
-    border-radius: 100%;
+    border-radius: 90%;
     border: 2px solid;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
     vertical-align: middle;
-}
+  }
   
   /* Style the side navigation */
   aside {
@@ -84,6 +85,7 @@ img {
   main {
     margin-left: 200px;
     padding-left: 20px;
+    padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -131,6 +133,13 @@ img {
 
   #Work{
     flex: 1 0 90%
+  }
+
+  #Contact ul{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 85px;
+    font-size: 1.5rem;
+    line-height: 30px;
   }
 
   .project1{
