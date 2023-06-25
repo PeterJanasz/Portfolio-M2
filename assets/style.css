@@ -217,4 +217,9 @@ footer nav li{
     header{
       margin-left: 0px;
     }
+
+    #Contact li{
+      font-size: 12px;
+      text-align: left;
+    }
  }
