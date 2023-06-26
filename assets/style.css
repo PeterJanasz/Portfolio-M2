@@ -17,8 +17,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 201px;
+  margin-left: 100px;
   padding: 20px;
+  width: 100%;
 }
 
 header h1 {
@@ -92,6 +93,7 @@ main {
   flex-wrap: wrap;
 }
 
+/*add styling to section headers*/
 h2,
 h3,
 h4,
@@ -140,6 +142,7 @@ p {
   flex: 1 0 90%
 }
 
+/*add flex to center contact info*/
 #Contact ul {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-left: 85px;
@@ -150,6 +153,7 @@ p {
   flex-direction: column;
 }
 
+/*add flexbox to center resume*/
 #Resume a{
   display: flex;
   justify-content: center;
