@@ -143,8 +143,16 @@ p {
 #Contact ul {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-left: 85px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#Resume a{
+  display: flex;
+  justify-content: center;
 }
 
 .project1 {
@@ -179,6 +187,10 @@ p {
 
 }
 
+.pdf {
+  height: 75px;
+  width: 50px;
+}
 
 footer {
   clear: both;
