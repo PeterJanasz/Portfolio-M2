@@ -17,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 50px;
   padding: 20px;
   width: 100%;
 }
@@ -145,12 +145,11 @@ p {
 /*add flex to center contact info*/
 #Contact ul {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding-left: 85px;
   font-size: 1.2rem;
   line-height: 30px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: center;
 }
 
 /*add flexbox to center resume*/
@@ -212,6 +211,20 @@ footer nav li {
 }
 
 @media screen and (max-width: 768px) {
+
+  main {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+  }
+
   .aboutmeflex {
     flex-direction: column;
     align-items: center;
@@ -234,19 +247,4 @@ footer nav li {
     color: white;
   }
 
-  main {
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
-
-  header {
-    margin-left: 0px;
-  }
-/*adjust font for smaller screen*/
-  #Contact li {
-    font-size: 12px;
-    text-align: left;
-  }
-}
