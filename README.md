@@ -9,4 +9,4 @@ Created a portfolio website with "About Me", "Work", "Resume", and "Contact" sec
 
 ![Screenshot of website](assets/images/Screenshot%202023-06-26%20at%203.34.47%20PM.png)
 
- - [Deployed] https://peterjanasz.github.io/Portfolio/
+ - [Deployed] https://peterjanasz.github.io/Portfolio-M2/
